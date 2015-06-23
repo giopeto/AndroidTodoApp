@@ -1,0 +1,18 @@
+<resources>
+<!-- the theme applied to the application or activity -->
+    <style name="AppTheme"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:titleTextStyle">@style/AppTheme.MyActionBarTitleText</item>
+
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/AppTheme.MyActionBarTitleText</item>
+
+    </style>
+
+    <style name="AppTheme.MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:background">@color/sa_green</item>
+        <item name="android:backgroundStacked">@color/stacked_green</item>
+        <item name="android:backgroundSplit">@color/sa_green</item>
+    </style>
+</resources>
